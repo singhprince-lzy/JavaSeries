@@ -1,0 +1,36 @@
+package recursion;
+
+public class DayOne {
+	
+	//Factorial using recursion
+	public int fac(int n) {
+		if(n<0) {
+			return -1;
+		}
+		if(n==0 || n==1) {
+			return 1;
+		}
+		
+		return n*fac(n-1);
+	}
+	
+	//sum of the digit of a number
+	
+	int sumOfDigit(int num) {
+		if(num<0) {
+			return -1;
+		}
+		if(num<=0) {
+			return 0;
+		}
+		return num%10+sumOfDigit(num/10);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DayOne d=new DayOne();
+		System.out.println(d.sumOfDigit(401));
+
+	}
+
+}

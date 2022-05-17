@@ -1,0 +1,24 @@
+package recursion;
+
+public class DayOne {
+	
+	//Factorial using recursion
+	public int fac(int n) {
+		if(n<0) {
+			return -1;
+		}
+		if(n==0 || n==1) {
+			return 1;
+		}
+		
+		return n*fac(n-1);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DayOne d=new DayOne();
+		System.out.println(d.fac(-4));
+
+	}
+
+}

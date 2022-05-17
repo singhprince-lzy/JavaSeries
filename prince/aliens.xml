@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aliens>
+	<alien aid='a1'>
+	    <prince>
+		<rollno>2818365</rollno>
+		<marks>900</marks>
+		</prince>
+	</alien>
+	<alien aid='a2'>
+		<vikash>
+		<rollno>2818382</rollno>
+		<marks>500</marks>
+		</vikash>
+	</alien>
+</aliens>
