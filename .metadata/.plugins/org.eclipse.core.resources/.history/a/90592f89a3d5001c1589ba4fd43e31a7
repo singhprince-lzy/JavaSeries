@@ -1,0 +1,21 @@
+package com.first;
+
+public class Fib {
+	public static int printFib(int n) {
+		int a=0;
+		int b=1;
+		
+		if(n<0) {
+			System.out.println("Cant have Fibonacci of negative number");
+			return -1;
+		}
+		
+		while(b<n) {
+			int sum=a+b;
+			System.out.print(a+" "+b);
+			a=b;
+			b=sum;
+		}
+		return 1;
+	}
+}

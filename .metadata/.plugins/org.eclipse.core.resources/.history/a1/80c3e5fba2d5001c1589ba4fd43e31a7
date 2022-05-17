@@ -1,0 +1,17 @@
+package com.first;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestFib {
+	
+	Fib f= new Fib();
+
+	@Test
+	public void test() {
+		assertEquals(-1, f.printFib(-10));
+		assertEquals(1, f.printFib(5));
+	}
+
+}
